@@ -7,5 +7,7 @@ defmodule Olimpyc.Integrations.Game.ClientTest do
     test "respond a list of games" do
       assert {:ok, %Tesla.Env{}} = Client.all_games()
     end
+
+
   end
 end
